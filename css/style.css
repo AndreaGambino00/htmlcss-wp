@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+width: 60%;
+margin: 0 auto;
+font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color:white;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+    border-right: 1px solid lightgray;
+    padding: 10px;
+}
+
+nav{
+    margin: 10px 0;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightgray;
+}
+
+.contenitore1 {
+    position: relative;
+    height: 400px;
+    width: 830px;
+    margin-top: 40px;
+}
+
+.colorp{
+    color: white;
+}
+
+#banner {
+    position: relative;
+    height: 400px;
+    width: 830px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner-text {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+.overlay3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.contenitore2 {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.img1 ,
+.img3{
+    position: relative;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.img2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.menu ,
+.content {
+    float: left;
+    position: relative;
+}
+
+.menu {
+    width: 20%;
+    background-color: white;
+    border: 8px solid white;
+    padding-top: 50px;
+}
+
+.content {
+    width: 60%;
+    background-color: white;
+    border: 8px solid white;
+    padding-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+p{
+    color: lightgray;
+}
+
+.cuore{
+    color: red;
+}
+
+
+
